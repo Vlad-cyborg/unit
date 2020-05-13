@@ -1,0 +1,115 @@
+.price-card {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #b2b2b2;
+}
+
+.card-price {
+    margin-bottom: 17px;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.price-label {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.price-card__sale {
+    padding-bottom: 28px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
+}
+
+.price-card__text {
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+
+.text-list__item {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 20px;
+    }
+}
+
+.price-card__button {
+    height: 50px;
+    padding-left: 27px;
+    padding-right: 27px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover, &:focus {
+        outline: none;
+        background-color: lighten(rgba(0, 0, 0, 0.75), 20%);
+    }
+}
+
+.price-card--blue {
+    background-color: rgba(48, 79, 254, 0.95);
+
+    .card-title {
+        color: #7b7b7b;
+    }
+
+    .price-label {
+        background-color: #2740cc;
+    }
+
+    .price-card__button {
+        background-color: #fff;
+        color: #666666;
+
+        &:hover, &:focus {
+            background-color: darken(#fff, 20%);
+        }
+    }
+}
+
+  
+  
